@@ -29,7 +29,7 @@ function showPage(list, page) {
                const html =  `<li class="student-item cf">
                <div class="student-details">
                  <img class="avatar" src=${list[i].picture.medium} alt="Profile Picture">
-                 <h3>${list[i].name.first}${list[i].name.last}</h3>
+                 <h3>${list[i].name.first} ${list[i].name.last}</h3>
                  <span class="email">${list[i].email}</span>
                </div>
                <div class="joined-details">
